@@ -1,0 +1,157 @@
+{
+  "name": "Aritra Karmakar",
+  "title": "Full Stack Developer",
+  "profile": "A versatile and highly motivated Full Stack Developer with over 4 years of experience, including 2+ years of professional work experience. Skilled in React, Next.js, Python, DevOps, and data analysis, with a strong foundation in designing and deploying scalable applications. Experienced in leading end-to-end software development projects and collaborating with cross-functional teams to deliver high-quality products on time.",
+    "education": {
+    "degree": "BE in Information Science and Engineering",
+    "institution": "Visveswaraya Technological University (VTU), Bengaluru",
+    "graduation_year": 2023,
+    "cgpa": 8.2
+  },
+  "work_experience": [
+    {
+      "Company Name": "CISTUP @ IISc, Bengaluru",
+      "Role": "Full Stack Developer",
+      "Project/Team Involvement": "City Scale Model Development Project, Individual Software Contributor",
+      "Overall contribution": "Sole software architect and developer for three key applications as a part of the transportation model development effort: Digital Survey Tool, Aggregate Travel Demand Model (ATDM), and Disaggregate Travel Demand Model (DTDM).",
+      "Experience Points": [
+        {
+          "Application": "Digital Survey Tool Development and Survey Enumeration",
+          "Skills": ["JavaScript", "React.JS", "Tailwind CSS", "Python Flask", "PostgreSQL", "nginx", "Python Data Analysis (Pandas, numpy, Folium)", "Git", "GitHub"],
+          "Details": [
+            "Carried out major enhancements to a large-scale React + Flask web app for household surveys (10,000+ households) as a full stack developer as per project requirements.",
+            "Designed a responsive UI, implemented efficient state management, JWT-based authentication, and performance-tuned APIs and PostgreSQL queries to enhance web performance and minimise server load; automated deployment, monitoring, load balancing, and version control workflows.",
+            "Built real-time admin dashboards and tools; supported field deployment by training a 40-member intern team and resolving live issues during survey execution.",
+            "Automated post-survey workflows by coding Python scripts to cut manual effort by 85%."
+          ]
+        },
+        {
+          "Application": "Disaggregate & Aggregate Travel Demand Models (DTDM & ATDM) - Python/C++ QGIS Plugins",
+          "Skills": ["Python (Pandas, NumPy)", "C++", "Eigen", "HDF5", "DuckDB", "SQL", "Flask", "Vanilla JS", "Chart.js", "QGIS", "Git", "GitHub", "PyCharm Remote Debugging"],
+          "Details": [
+            "Developed a lightweight Flask + Vanilla JS user-interactive dashboard to visualize ATDM outputs (charts, heatmaps) and integrated with QGIS via shell script automation, reducing load time by 80% by utilising DuckDB's in-memory processing.",
+            "Acted as data engineer for ATDM, optimizing 70–80% of tool logic for large data handling, cutting storage by 75% and improving I/O performance.",
+            "Led a major performance improvement effort to convert all long-running Python modules to C++, achieving 95% faster runtime and 80% lower memory use.",
+            "Served as a Software SME for IISc in the development of some critical Python modules for these two tools (ATDM and DTDM) and contributed towards researching and reverse-engineering existing tools and trends for drafting the requirements.",
+            "Guided the development team on multithreading, I-O for large-scale matrix computations, optimization, debugging, and testing, open-source best practices, and technical documentation."
+          ]
+        }
+      ]
+    },
+    {
+      "Company Name": "OSlash, Bengaluru",
+      "Role": "Product Engineering Intern",
+      "Project/Team Involvement": "Company Product (Frontend)",
+      "Experience Points": [
+        "Collaborated with the product team to debug UI issues and implement user-friendly interfaces, enhancing usability and ensuring consistency.",
+        "Enhanced web performance by 20%, eliminating props drilling by efficient state management and implementation of server components in Next.js.",
+        "Resolved 2 major and 1 minor issues as an individual contributor in the product dashboard using React and TypeScript, enhancing user experience and functionality.",
+        "Engaged in pair programming with senior developers to troubleshoot and resolve frontend issues, including unnecessary re-rendering and complex ProseMirror editor behavior bugs, gaining hands-on experience in performance optimization and debugging."
+      ]
+    },
+    {
+      "Company Name": "Edureka, Bengaluru",
+      "Role": "Full Stack Developer Intern",
+      "Project/Team Involvement": "Company Product (Full Stack)",
+      "Experience Points": [
+        "Collaborated with the development team to deliver a client-facing, fully responsive e-commerce platform using the MERN stack, tailored to meet real-time business requirements and achieved a certification from Edureka.",
+        "Designed and implemented key features inspired by Zomato, integrating payment gateway through Paytm JS Checkout and secure authentication.",
+        "Worked on Edureka's Learning Management System to resolve support tickets, address real-time bugs, and ensure system stability for end-users.",
+        "Engaged in pair programming to enhance LMS scalability, storage, and monitoring by leveraging AWS services like EC2, ECS, S3, and CloudWatch."
+      ]
+    }
+  ],
+  "projects": [
+    {
+        "title": "Cloud-Based Collaborative IDE",
+        "description": [
+            "Independently architected and developed a real-time, cloud-based IDE to support collaborative coding in isolated user environments.",
+            "Built a scalable frontend using React and Monaco Editor, delivering a VS Code inspired experience in the browser with real time terminal emulation.",
+            "Implemented efficient state management with useContext + useReducer, paired with localStorage to persist data on-reload and provide consistent UX.",
+            "Engineered a backend with Node.js + Express, exposing APIs for file I/O, terminal interaction using web-socket (socket.io), and user session handling.",
+            "Leveraged Chokidar to monitor file system changes and dynamically update the file tree structure utilising the socket bridge.",
+            "Tech Stack: JavaScript, React, Monaco Editor, Node.js, Express, Socket.io, JWT, Chokidar, xTerm, Tailwind CSS, MongoDB"
+        ]
+    },
+    {
+        "title": "Inventory Management Web App",
+        "description": [
+            "Identified inefficiencies in manual inventory tracking and built a centralized Next.js web app for our family business, cutting manual efforts by 90%.",
+            "Implemented a dynamic Sidebar to display product categories and subcategories, improving navigation and speeding up product access.",
+            "Empowered admins with the ability to Add, Update, and Delete products and categories via a secure management interface.",
+            "Implemented Redis for caching frequently accessed data, drastically improving query performance and reducing load times.",
+            "Utilized React Query for efficient and optimized data fetching with automatic caching, background updates, and request deduplication.",
+            "Managed complex application state with Redux Toolkit, reducing unnecessary re-renders and enhancing web performance.",
+            "Tech-Stack: TypeScript, Next.js 14, Tailwind CSS, Redis, React Query, Redux"
+        ]
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "SQL"
+    ],
+    "frameworks_and_libraries": [
+      "React",
+      "Node",
+      "Redux",
+      "Next.js",
+      "Express.js",
+      "Django",
+      "Tailwind CSS",
+      "Flask",
+      "NumPy",
+      "Pandas",
+      "React Native",
+      "React Query"
+    ],
+    "databases_and_tools": [
+      "PostgreSQL",
+      "MongoDB",
+      "GraphQL",
+      "MySQL",
+      "Redis",
+      "RESTful API",
+      "Git",
+      "Nginx",
+      "Shell Script Automation",
+      "Linux"
+    ],
+    "cloud_technologies": [
+      "AWS",
+      "CI/CD",
+      "Serverless",
+      "Kubernetes",
+      "Docker",
+      "Cloudflare Workers"
+    ]
+  },
+  "expertise": [
+    "Full Stack End to End Development",
+    "Root Cause Analysis (RCA)",
+    "AGILE (SDLC)",
+    "Debugging and Troubleshooting",
+    "Performance Tuning",
+    "Automation",
+    "Continuous Integration/Continuous Deployment (CI/CD)",
+    "Frontend architecture",
+    "Requirement Analysis and Documentation"
+  ],
+  "achievements": [
+    {
+      "title": "SMART INDIA HACKATHON 2022",
+      "location": "CUTM, Bhubaneswar",
+      "dates": "24th - 29th August 2022",
+      "description": "Grand Finale Selection: Selected for the Grand Finale of Smart India Hackathon (SIH) 2022, showcasing exceptional problem-solving and innovation skills.",
+      "project": "Developed and delivered a MATLAB simulation for the project titled 'Design an Indigenous Monitoring Communication Receiver'."
+    }
+  ],
+  "qualities": [
+    "Passionate & Self-directed",
+    "Quick-witted Learner",
+    "Meticulous & Pragmatic",
+    "Innovative & Thoughtful"
+  ]
+}
